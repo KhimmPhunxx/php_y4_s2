@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Web Year4</title>
+    <title>Phone Store Controller</title>
     <!-- Link Bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- link fontawesome -->
@@ -15,9 +15,21 @@
 </head>
 <body>
 
-    <nav class="navbar justify-content-center fs-4 mb-3"
-        style="background-color: #f8f9fa; color: #0d6efd; font-weight: bold;">
-        PHP CRUD Operation Assignment Web Year4
+    <nav class="navbar  fs-4 mb-3"
+        style=" color: #0d6efd; font-weight: bold; border-bottom: 1px solid #DFDFDF;
+                shadow: 0 0 10px rgba(0, 0, 0, 0.1); background-color: #f8f9fa;
+        ">
+       
+        <div class="d-flex justify-content-between container">
+            <div
+                style=" color: white; font-size: 1.5rem; display: flex; justify-content: center; align-items: center; border-radius: 5px; cursor: pointer;"
+            >
+               <img
+                    style="width: 80px; height: 40px; object-fit: cover;"
+               src="./images/logo.png" alt="">
+            </div>
+        </div>
+        
     </nav>
 
     <div class="container">
@@ -30,7 +42,7 @@
                 Manage all your existing users or add new one
             </div>
             <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddUser">
-                <i class="fa-solid fa-user-plus"></i> Add New User
+                <i class="fa-solid fa-user-plus"></i> Add New Products
             </button>
 
         </div>
@@ -101,9 +113,9 @@
                     <!-- select carer  -->
                     <select class="form-select" name="carer" id="carer"  >
                         <option value="">Select...</option>
-                        <option value="Cloth">Cloth</option>
-                        <option value="Shoes">Shoes</option>
-                        <option value="Electronic">Electronic</option>
+                        <option value="IOS">IOS</option>
+                        <option value="Android">Android</option>
+                        <option value="Other">Other</option>
                     </select>
                 </div>
                 <!-- groub choose Gender -->
@@ -170,10 +182,11 @@
                     <label class="form-label">Choose Category</label>
                     <!-- select carer  -->
                     <select class="form-select" name="carer" id="carer"  >
-                        <option value="">Select...</option>
-                        <option value="Cloth">Cloth</option>
-                        <option value="Shoes">Shoes</option>
-                        <option value="Electronic">Electronic</option>
+                    <option value="">Select...</option>
+                        <option value="IOS">IOS</option>
+                        <option value="Android">Android</option>
+                        <option value="Other">Other</option>
+
                     </select>
                 </div>
                 <!-- groub choose Gender -->

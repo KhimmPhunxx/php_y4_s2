@@ -24,7 +24,7 @@
 .preview_img {
     height: 80px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 20px;
     object-fit: cover;
     border: 2px solid silver;
 }
